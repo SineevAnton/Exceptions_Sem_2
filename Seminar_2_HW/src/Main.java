@@ -8,6 +8,8 @@ public class Main {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         boolean working = true;
 
+        Task1 task1 = new Task1();
+
         while (working){
 
             System.out.println("Hello!\nChose the task you want to work with\n" +
@@ -18,7 +20,7 @@ public class Main {
                 String choice = reader.readLine().toLowerCase();
                 switch (choice){
                     case ("1"):
-                        System.out.println("1");
+                        System.out.println(task1.AskAndGetFloatNumber());
                         break;
                     case ("2"):
                         System.out.println("2");
