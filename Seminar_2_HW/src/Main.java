@@ -10,6 +10,7 @@ public class Main {
 
         Task1 task1 = new Task1();
         Task2 task2 = new Task2();
+        Task4 task4 = new Task4();
 
 
         while (working){
@@ -34,7 +35,7 @@ public class Main {
                         Task3.printSum(2,3);
                         break;
                     case ("4"):
-                        System.out.println("4");
+                        System.out.println(task4.InputSomething());
                         break;
                     case ("q"):
                         System.out.println("Closing application.");
