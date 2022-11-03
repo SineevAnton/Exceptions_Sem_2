@@ -9,6 +9,7 @@ public class Main {
         boolean working = true;
 
         Task1 task1 = new Task1();
+        Task2 task2 = new Task2();
 
         while (working){
 
@@ -23,7 +24,7 @@ public class Main {
                         System.out.println(task1.AskAndGetFloatNumber());
                         break;
                     case ("2"):
-                        System.out.println("2");
+                        task2.codeToCorrect();
                         break;
                     case ("3"):
                         System.out.println("3");
@@ -32,7 +33,7 @@ public class Main {
                         System.out.println("4");
                         break;
                     case ("q"):
-                        System.out.println("q");
+                        System.out.println("Closing application.");
                         working = false;
                         break;
                     default:
