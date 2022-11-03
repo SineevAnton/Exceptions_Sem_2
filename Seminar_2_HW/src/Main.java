@@ -11,6 +11,7 @@ public class Main {
         Task1 task1 = new Task1();
         Task2 task2 = new Task2();
 
+
         while (working){
 
             System.out.println("Hello!\nChose the task you want to work with\n" +
@@ -27,7 +28,10 @@ public class Main {
                         task2.codeToCorrect();
                         break;
                     case ("3"):
-                        System.out.println("3");
+                        System.out.println("Task3 first method.");
+                        Task3.task3Method();
+                        System.out.println("Task3 second method.");
+                        Task3.printSum(2,3);
                         break;
                     case ("4"):
                         System.out.println("4");
